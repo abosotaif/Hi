@@ -1,17 +1,22 @@
 {
   "name": "gaming-lounge-system",
+  // أضف هذا السطر. استبدل <YOUR-USERNAME> باسمك
+  "homepage": "https://abosotaif.github.io/Hi",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    // أضف هذين السطرين
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-hot-toast": "^2.6.0",
+    "react-hot-toast": "^2.6.0", 
     "jspdf-autotable": "^5.0.2",
     "jspdf": "^3.0.3"
   },
@@ -19,6 +24,8 @@
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "vite": "^6.2.0",
+    // ستتم إضافة هذا السطر تلقائياً بعد الخطوة 1
+    "gh-pages": "^6.1.1" 
   }
 }
