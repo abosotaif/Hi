@@ -1,6 +1,6 @@
 {
   "name": "gaming-lounge-system",
-  // أضف هذا السطر. استبدل <YOUR-USERNAME> باسمك
+
   "homepage": "https://abosotaif.github.io/Hi",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    // أضف هذين السطرين
+  
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -25,7 +25,7 @@
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0",
-    // ستتم إضافة هذا السطر تلقائياً بعد الخطوة 1
+    
     "gh-pages": "^6.1.1" 
   }
 }
